@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#mkdir empty
+mkdir empty
 for a in $(ls | grep train);
  do
  rsync -a empty/ --delete $a
